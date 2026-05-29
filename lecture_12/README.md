@@ -1,0 +1,2 @@
+SimCLR ("A Simple Framework for Contrastive Learning of Visual Representations," Chen et al., 2020) is one of the cleanest instantiations of exactly the idea your lecture covered. The abstract contrastive principle — pull together representations of things that are "the same," push apart things that are "different" — SimCLR turns into a concrete recipe with no labels at all. The trick to defining "same" and "different" without labels: two augmented views of the same image are a positive pair; every other image in the batch is a negative.
+
